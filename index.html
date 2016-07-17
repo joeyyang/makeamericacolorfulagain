@@ -18,7 +18,7 @@
       })();
     </script>
  -->
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
   <style type="text/css">
     body {
       width: 600px;
@@ -31,6 +31,17 @@
     h1 {
       text-transform: uppercase;
       letter-spacing: 0.25em;
+      margin: 0;
+      line-height: 48px;
+      font-weight: 400;
+    }
+
+    h1.first {
+      margin-top: 20px;
+    }
+
+    h1.colorful {
+      font-weight: 700;
     }
 
     .letter {
@@ -60,7 +71,7 @@
     }
 
     .trump {
-      width: 600px;
+      width: 420px;
     }
 
     .primary {
@@ -119,8 +130,13 @@
         max-width: 100%;
         width: 100%;
         letter-spacing: 0.1em;
+        line-height: 30px;
         font-size: 24px;
         margin: 6px 0;
+      }
+
+      h1.first {
+        margin-top: 10px;
       }
 
       h3 {
@@ -150,8 +166,8 @@
   </style>
 </head>
   <body>
-    <h1>Make America</h1>
-    <h1>
+    <h1 class="first">Make America</h1>
+    <h1 class="colorful">
       <span class="letter c">C</span>
       <span class="letter o">O</span>
       <span class="letter l">L</span>

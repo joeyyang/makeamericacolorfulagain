@@ -4,5 +4,12 @@
   },
   "hosting": {
     "public": "public"
-  }
+  },
+  "redirects" : [
+    {
+      "source": "/buy.html",
+      "destination": "",
+      "type": 301
+    }
+  ]
 }

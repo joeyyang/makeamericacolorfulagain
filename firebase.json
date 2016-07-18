@@ -7,7 +7,7 @@
   },
   "redirects" : [
     {
-      "source": "/buy.html",
+      "source": "/buy",
       "destination": "",
       "type": 301
     }

@@ -7,7 +7,7 @@
   },
   "redirects" : [
     {
-      "source": "/buy",
+      "source": "/buy*",
       "destination": "https://igg.me/at/make-america-colorful-again",
       "type": 301
     }

@@ -4,12 +4,5 @@
   },
   "hosting": {
     "public": "public"
-  },
-  "redirects" : [
-    {
-      "source": "/buy*",
-      "destination": "https://igg.me/at/make-america-colorful-again",
-      "type": 301
-    }
-  ]
+  }
 }
